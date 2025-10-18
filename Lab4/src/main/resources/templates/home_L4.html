@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html th:replace="~{layout_L4::view(~{::title}, ~{::article})}">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{menu.home}">Trang chủ</title>
+</head>
+<body>
+<article>
+    <h1 th:text="#{menu.home}">Trang chủ</h1>
+    <!-- ảnh: đường dẫn tùy theo bạn để file trong static -->
+    <img src="/photos/photos.png" alt="photo">
+</article>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result A</title>
+</head>
+<body>
+
+<h2>Trang A</h2>
+
+<!-- message lấy từ Model (forward từ /b) -->
+<h3>Model message:</h3>
+<p th:text="${message}">[Chưa có message từ Model]</p>
+
+<!-- message lấy từ param (redirect từ /c) -->
+<h3>Redirect param message:</h3>
+<p th:text="${param.message}">[Chưa có message từ Redirect]</p>
+
+</body>
+</html>
